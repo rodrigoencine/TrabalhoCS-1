@@ -47,6 +47,7 @@ public class ClienteDAO {
 	
 	public void criar(Cliente cliente) {		
 		File file = per.teste();
-		per.salvarCliente(cliente);
+//		per.salvarCliente(cliente);
+		per.salvar(cliente);
 	}
 }
